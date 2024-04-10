@@ -1,0 +1,26 @@
+/*tamaños*/
+#piso{width:1000px;height: 700px}
+#techo{width: 980px;height: 100px}
+#ventana1{width: 300px;height: 105px}
+#ventana2{width: 300px;height: 105px}
+#ventana3{width: 300px;height: 105px}
+#bolsa{width: 650px;height: 305px}
+#sala{width: 300px;height: 300px}
+#comedor{width: 300px;height: 300px}
+#patio{width: 980px;height: 100px}
+/*colores*/
+BODY{background-color: skyblue;color: darkblue}
+#piso{background-color:gold}
+#techo{background-color:gray}
+#ventana1{background-color:chocolate}
+#ventana2{background-color:deepskyblue}
+#ventana3{background-color:olive}
+#bolsa{background-color:brown}
+#sala{background-color:orange}
+#comedor{background-color:salmon}
+#patio{background-color: magenta}
+/*alienaciones*/
+#piso{margin: 0 auto}
+#bolsa{float: right}
+.habitaciones{float: left;margin-left: 10px}
+.areasexternas{margin: 0 auto}
