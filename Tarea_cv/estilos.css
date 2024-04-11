@@ -1,0 +1,55 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #121212;
+    color: #000000;
+  }
+  .cv-contenido {
+    max-width: 800px;
+    margin: auto;
+  }
+  .header {
+    text-align: center;
+    background-color: #4d4d4d;
+    padding: 20px;
+  }
+  .foto-perfil {
+    width: 150px;
+    height: 125px;
+    margin-left: 50px;
+    border-radius: 700%;
+  }
+  .contacto img {
+    width: 15px;
+    margin-right: 8px;
+  }
+  .Contenido_izq {
+    display: flex;
+    justify-content: space-between;
+  }
+  .izq-column  {
+    width: 230px; /* Ajusta esto según tu diseño */
+    background-color: #969696;
+    padding: 20px;
+  }
+  .der-column {
+    width: calc(100% - 300px);
+    background-color: #a1a1a1;
+    padding: 20px; /* Ajusta esto según tu diseño */
+  }
+  section {
+    margin-bottom: 20px;
+  }
+  h3 {
+    color: #000000d0;
+  }
+  h2 {
+    font-weight: lighter;
+  }
+  h1, h2 {
+    color: rgb(197, 197, 196);
+  }
+  hr {
+    border-color: #000000;
+    margin-top: -15px;
+  }
+

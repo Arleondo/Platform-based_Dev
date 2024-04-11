@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .grid-container {
+      display: grid;
+      grid-template-rows: 100px 100px 100px;
+      grid-template-columns: 100px 100px;
+      grid-gap: 5px;
+      background: blue;
+    }
+
+    .grid-item1 {
+      background: rgb(145,48,48);
+      text-align: center;
+      border: black 5px solid;
+      grid-column: 1 / span 4;
+      grid-row: 1 / Line2;
+    }
+    .grid-item4 {
+      background: rgb(128,128,128);
+      text-align: center;
+      border: black 5px solid;
+    }
+    .grid-item6 {
+      background: grey;
+      text-align: center;
+      border: black 5px solid;
+      grid-column: 1 / span 4;
+      grid-row: 1 / Line2;
+    }
+    .grid-item2 {
+      background: rgb(19,150,87);
+      text-align: center;
+      border: black 5px solid;
+    }
+    .grid-item3 {
+      background: blueviolet;
+      text-align: center;
+      border: black 5px solid;
+    }
+
+
+
+  </style>
+</head>
+<body>
+<div class="grid-container">
+  <div class="grid-item1">1</div>
+  <div class="grid-item2">2</div>
+  <div class="grid-item3">3</div>
+  <div class="grid-item4">4</div>
+  <div class="grid-item6">6</div>
+</div>
+
+</body>
+</html>
