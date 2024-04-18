@@ -27,14 +27,14 @@ body {
     justify-content: space-between;
   }
   .izq-column  {
-    width: 230px; /* Ajusta esto según tu diseño */
+    width: 230px;
     background-color: #969696;
     padding: 20px;
   }
   .der-column {
     width: calc(100% - 300px);
     background-color: #a1a1a1;
-    padding: 20px; /* Ajusta esto según tu diseño */
+    padding: 20px;
   }
   section {
     margin-bottom: 20px;
