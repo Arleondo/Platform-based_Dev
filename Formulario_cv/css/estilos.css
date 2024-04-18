@@ -1,0 +1,125 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: lightblue;
+  color: #ffffff;
+}
+
+.contenido_CV {
+  max-width: 500px;
+  margin: auto;
+}
+
+.header {
+  text-align: left;
+  background-color: #000000;
+  padding: 30px;
+}
+
+.contacto img {
+  width: 15px;
+  margin-right: 8px;
+}
+
+.Content,
+.General_content {
+  width: 100%;
+  background-color: lightslategray;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+h3 {
+  color: blue;
+}
+
+h4 {
+  margin-bottom: -5px;
+}
+
+h2 {
+  font-weight: lighter;
+}
+
+h1, h2 {
+  color: rgb(255, 213, 213);
+}
+
+hr {
+  border-color: #c5c5c4;
+  margin-top: -15px;
+}
+
+a {
+  color: #c5c5c4;
+  text-decoration: none;
+}
+
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="date"],
+input[type="radio"],
+input[type="checkbox"],
+input[list="aptitudes"],
+select,
+textarea,
+
+
+input[type="submit"] {
+  background-color: black; /* Fondo oscuro para los campos de entrada */
+  color: #ffffff; /* Texto claro */
+  border: 2px solid gray; /* Borde más claro */
+  padding: 10px; /* Espaciado interno */
+  margin-bottom: 15px; /* Espacio debajo de cada campo */
+  border-radius: 5px; /* Bordes redondeados */
+  width: calc(100% - 20px); /* Ancho ajustado */
+}
+
+
+/* Estilos para el foco de los campos de entrada y botones */
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus,
+input[type="date"]:focus,
+input[type="radio"]:focus,
+input[type="checkbox"]:focus,
+input[list="aptitudes"]:focus,
+select:focus,
+textarea:focus,
+input[type="submit"]:focus {
+  background-color: #454545; /* Fondo aún más claro al enfocar */
+  border-color: #666; /* Borde más claro al enfocar */
+  outline: none; /* Elimina el contorno predeterminado */
+}
+
+
+/* Estilos específicos para los botones */
+input[type="submit"] {
+  cursor: pointer; /* Cambia el cursor a una mano al pasar sobre el botón */
+  transition: background-color 0.3s ease; /* Suaviza la transición del color de fondo */
+}
+
+
+/* Estilos específicos para los botones al enfocar */
+input[type="submit"]:focus {
+  background-color: #5a5a5a; /* Fondo aún más claro al enfocar */
+}
+
+/* Estilos para los círculos de las opciones de radio */
+input[type="radio"] {
+  vertical-align: bottom; /* Alinea los círculos con la parte inferior de las etiquetas */
+  margin-right: 100px; /* Espacio a la derecha del círculo */
+  margin-bottom: 1px; /* Espacio hacia abajo del círculo */
+}
+
+/* Estilos para los cuadros de verificación de habilidades */
+input[type="checkbox"] {
+  vertical-align: bottom; /* Alinea los cuadros con la parte inferior de las etiquetas */
+  margin-right: 100px; /* Espacio a la derecha del cuadro */
+  margin-bottom: 1px; /* Espacio hacia abajo del cuadro */
+}

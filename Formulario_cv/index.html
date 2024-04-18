@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario de Currículum</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+<div class="contenido_CV">
+
+    <div class="header">
+        <h1>Formulario Para CV</h1>
+    </div>
+
+    <form action="formulario_process.php" method="post" class="formulario">
+        <div class="Content">
+            <div class="General_content">
+
+              <section>
+                <label for="nombre">Nombres y Apellidos :</label>
+                <input type="text" id="nombre" name="nombre" required>
+              </section>
+
+
+              <section>
+                <label for="Birth_date">Fecha de Nacimiento :</label>
+                <input type="date" id="Birth_date" name="Birth_date" required>
+              </section>
+
+
+              <section>
+                <label for="ocupacion">Ocupación :</label>
+                <input type="text" id="ocupacion" name="ocupacion" required>
+              </section>
+
+
+              <section>
+                <label for="telefono">Teléfono:</label>
+                <input type="text" id="telefono" name="telefono" required>
+              </section>
+
+
+              <section>
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="email" required>
+              </section>
+
+
+              <section>
+                <label for="linkedin">Linkedin:</label>
+                <input type="text" id="linkedin" name="linkedin" required>
+              </section>
+
+
+              <section>
+                <label for="direccion">Dirección:</label>
+                <input type="text" id="direccion" name="direccion">
+              </section>
+
+
+              <section>
+                <label for="nacionalidad">Nacionalidad:</label>
+                <select id="nacionalidad" name="nacionalidad" required>
+                  <option value="Peruvian">Peruvian</option>
+                  <option value="American">American</option>
+                  <option value="otra">N/D</option>
+                </select>
+              </section>
+
+
+              <section>
+
+                <label>Nivel de Ingles:</label><br>
+                <input type="radio" id="Beginner" name="English_level" value="Beginner" required>
+                <label for="Beginner">Beginner (lower than A1)</label><br>
+                <input type="radio" id="Intermediate" name="English_level" value="Advanced">
+                <label for="Intermediate">Intermediate (A1-B1)</label><br>
+                <input type="radio" id="Advanced" name="English_level" value="Advanced">
+                <label for="Advanced">Advanced (B2-C1)</label><br>
+                <input type="radio" id="Native" name="English_level" value="Native">
+                <label for="Native">Native (C2 or higher)</label><br>
+
+
+              </section>
+
+
+              <section>
+                <label for="Programming_Languages">Lenguajes de programación:</label>
+                <select id="Programming_Languages" name="lenguajes_programacion[]" multiple required>
+
+                  <option value="C++">C++</option>
+                  <option value="C">C</option>
+                  <option value="Python">Python</option>
+                  <option value="Lua">Lua</option>
+                  <option value="Web_Dev">Web_Developer</option>
+                  <option value="None">Ninguno</option>
+
+                </select>
+              </section>
+
+
+              <section>
+
+                <label for="aptitudes">Aptitudes :</label>
+                <input list="aptitudes" id="aptitudes" name="aptitudes" required>
+
+              </section>
+
+
+              <section>
+
+                <label for="habilidades">Habilidades :</label><br>
+
+                <input type="checkbox" id="Cocinar" name="habilidades[]" value="Cocinar">
+                <label for="Cocinar">Cocinar</label><br>
+
+                <input type="checkbox" id="Weapon_Handling" name="habilidades[]" value="Weapong_Handling">
+                <label for="Weapon_Handling">Weapon_Handling</label><br>
+
+                <input type="checkbox" id="Insanidad" name="habilidades[]" value="Insanidad">
+                <label for="Insanidad">Insano</label><br>
+
+                <input type="checkbox" id="Resolver" name="habilidades[]" value="Resolver">
+                <label for="Resolver">Resolvedor</label><br>
+
+              </section>
+
+
+              <section>
+
+                <label for="perfil">Perfil Insano:</label><br>
+                <textarea id="perfil" name="perfil" rows="4" cols="50" required></textarea>
+
+              </section>
+
+
+              <section>
+                <label for="experiencia">Experiencias?:</label><br>
+                <textarea id="experiencia" name="experiencia" rows="5" cols="50" required></textarea>
+              </section>
+
+
+              <section>
+                <label for="formacion_ed">Basic ed?:</label>
+                <input type="text" id="formacion_ed" name="formacion_ed" required>
+              </section>
+
+
+              <section>
+                <label for="Formacion_insana">Formation in ? (sigma,skibiditoilet, ...):</label>
+                <input type="text" id="Formacion_insana" name="Formacion_insana" required>
+              </section>
+
+
+            </div>
+        </div>
+
+        <input type="submit" value="SEND/ENVIAR">
+    </form>
+</div>
+
+
+</body>
+</html>
