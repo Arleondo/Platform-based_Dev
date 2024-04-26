@@ -2,7 +2,6 @@
 session_start();
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-
     // Conectar a la base de datos
 
     $server = "localhost";
@@ -14,7 +13,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if ($conn->connect_error) {
         die("Conexión fallida: " . $conn->connect_error);
     }
-
 
     // Escapar los datos para evitar inyección SQL
     $ID = $conn->real_escape_string($_POST["nombre"]);
@@ -31,7 +29,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $formacion = $conn->real_escape_string($_POST["formacion"]);
 
     // Preparar la consulta SQL para insertar los datos en la tabla 'curriculum'
-    $sql = "INSERT INTO curriculum (ID, fecha_nacimiento, ocupacion, contacto, nacionalidad, nivel_ingles, lenguajes_programacion, aptitudes, habilidades, perfil, experiencia_laboral, formacion)
+    $sql = "INSERT INTO formulario_1 (ID, fecha_nacimiento, ocupacion, contacto, nacionalidad, nivel_ingles, lenguajes_programacion, aptitudes, habilidades, perfil, experiencia_laboral, formacion)
             VALUES ('$ID', '$Birth_date', '$ocupacion', '$contacto', '$nacionalidad', '$nivel_ingles', '$lenguajes_programacion', '$aptitudes', '$habilidades', '$perfil', '$experiencia_laboral', '$formacion')";
 
     if ($conn->query($sql) === TRUE) {

@@ -15,7 +15,7 @@ session_start();
 
   <div class="header">
     <img class="foto-perfil"
-         src = "img/Ghost.jpg"
+         src = "img/Perfil.jpg"
          align = "right"
          alt = "Foto Insana" width="239" height="324">
     <h1><?php echo $_SESSION['nombre_apellidos']; ?></h1>
