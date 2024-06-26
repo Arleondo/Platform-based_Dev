@@ -1,0 +1,12 @@
+D:\Platform-based_Dev\Tareas\Cv_insano\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\Cv_insano.csproj.AssemblyReference.cache
+D:\Platform-based_Dev\Tareas\Cv_insano\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\mauiimage.inputs
+D:\Platform-based_Dev\Tareas\Cv_insano\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\mauifont.inputs
+D:\Platform-based_Dev\Tareas\Cv_insano\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\mauisplash.inputs
+D:\Platform-based_Dev\Tareas\Cv_insano\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\mauimanifest.stamp
+D:\Platform-based_Dev\Tareas\Cv_insano\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.g.i.cs
+D:\Platform-based_Dev\Tareas\Cv_insano\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.g.cs
+D:\Platform-based_Dev\Tareas\Cv_insano\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\XamlTypeInfo.g.cs
+D:\Platform-based_Dev\Tareas\Cv_insano\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.xaml
+D:\Platform-based_Dev\Tareas\Cv_insano\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.xbf
+D:\Platform-based_Dev\Tareas\Cv_insano\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\XamlSaveStateFile.xml
+D:\Platform-based_Dev\Tareas\Cv_insano\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\Cv_insano.GeneratedMSBuildEditorConfig.editorconfig
